@@ -1,0 +1,206 @@
+.drugs-main-mini-table {
+  .ReactTable .-pagination .-btn {
+    width: 40px !important;
+    background-color: black !important;
+    color: white !important;
+    // height: auto !important;
+  }
+  .ReactTable .-pagination {
+    justify-content: none !important;   
+  }
+
+  .ReactTable {
+    pointer-events: fill !important;
+  }
+
+  .overview_table{
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+
+  .-center {
+    position: relative;
+  }
+
+  .-pageSizeOptions{
+    position: absolute;
+    top: 42px;
+    left: 30px
+  }
+
+  .ReactTable .rt-th, .ReactTable .rt-td {
+    overflow: inherit !important;
+  }
+  
+}
+
+
+.table_drop_down{
+  padding: 0 !important;
+}
+
+.lot_nomber_item{
+  padding: 0 40px !important;
+}
+
+.date_item{
+  padding: 0 0 0 30px !important;
+}
+
+.column_width {
+  width: auto;
+}
+
+.date_class_name{
+  width: auto !important;
+}
+
+.drugs-main-table {
+  .ReactTable .-pagination .-btn {
+    width: 100px !important;
+    background-color: black !important;
+    color: white !important;
+  }
+
+  
+  
+  .ReactTable .-pagination .-previous, .-next,  .-center {
+    flex: none !important;
+  }
+  
+  .ReactTable .-pagination{
+    display: flex !important;
+    justify-content: flex-end !important
+  }
+
+}
+
+
+.table-inner-actions {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  div {
+    margin-right: 15px;
+  }
+  .Dropdown-root{
+    margin-right: 0px !important;
+    .Dropdown-control{
+      padding-top: 4px;
+    }
+  }
+
+  .sync{ 
+    margin-top: 8px;
+  }
+}
+
+.item_overview_title{
+  .breadcrumb{
+    padding: 0 !important;
+    background-color: white;
+
+    .breadcrumb-item {
+      color: #212529;
+    }
+  }
+  
+}
+
+.table-actions { 
+  padding-left: 15px;
+  margin-bottom: 10px;
+  select{
+    padding: 5px 5px;
+  }
+}
+
+.dropdown-menu{
+  border: none !important;
+}
+
+.action_drop_down,.action_drop_down:focus-visible {
+  outline: none;
+  border: none !important ;
+  background: white;
+}
+
+// cell text center align
+.rt-tr-group {
+  text-align: left;
+}
+
+.category{
+  text-align: center !important;
+  // color: red !important;
+}
+
+.searchIcon{
+  border: 1px solid black;
+  padding: 3px;
+  border-right: none;
+  background-color: white;
+}
+
+.search{
+  height: '32px';
+  width: '200px';
+  padding: 2px;
+  border: 1px solid black;
+  padding-left: 14px;
+}
+
+.searchTimes{
+  position: absolute;
+  margin-top: 5px;
+  border-left: none !important;
+  border: 1px solid black;
+  padding: 2px 12px;
+  background-color: white;
+}
+
+.form-check {
+      .form-check-input {
+        margin-top: 10px;
+      }
+    }
+
+    .expiryRed{
+      color: red;
+    }
+
+    .expiryYellow{
+      color: #E8912D;
+    }
+
+    .expiryBlack{
+      color: black;
+    }
+
+.registration_form{
+  margin: 30px 20px 0 !important;
+}
+
+.dropdown > button{
+  font-size: 20px;
+}
+
+.table_container{
+  padding-right: 0 !important;
+}
+
+.dropdown_header{
+  color: rgba(0, 0, 0, 0.45);
+  word-wrap: break-word;
+  margin-left : 0px !important;
+}
+.all_list{
+  margin-left: 10px !important;
+}
+
+.showPage{
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 10px;
+}

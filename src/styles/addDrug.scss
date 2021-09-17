@@ -1,0 +1,71 @@
+.form-group-action {
+    margin-top: 25px;
+}
+  
+.form-action {
+    .closeBtn {
+        margin-left: 20px;
+    }
+}
+  
+#description {
+    height: 100px;
+}
+  
+.drag-file {
+    display: flex;
+
+    img {
+        margin-left: 50px;
+        height: 250px;
+        width: 250px ;
+    }
+}
+
+.drag {
+    padding: 70px;
+    border: 1px dashed gray;
+    height: 260px;
+    width: 280px; 
+    i {
+        padding-left: 38px;
+        font-size: 48px;
+    }
+    .drag-text {
+        display: flex;
+        flex-direction: column;
+        span:nth-child(2) {
+        padding-left: 50px;
+        }
+        
+    }
+
+}
+.drag_more_menu > button,.drag_more_menu > button:active{
+    background-color: white !important;
+    color: black !important;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.drug_title{
+    margin : 0px !important;
+}
+.drug_name{
+    margin: 0 10px 0 0 !important;
+}
+.badge-pill{
+    border-radius: 0.5rem !important;
+}
+
+.badge_name{
+    padding: 10px 15px !important;
+    // border-radius: 5px !important;
+    margin: 0 3px !important;
+    // background: gray !important;
+}
+.badge_name_status{
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    margin: 0 3px !important;
+    background: gray !important;
+}

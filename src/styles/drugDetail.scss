@@ -1,0 +1,149 @@
+.overview, .movement-history {
+    .attribute-pair {
+        margin: 20px;
+        text-transform:capitalize;
+        display: flex;
+        .attribute-name {
+            color: gray;
+            width: 180px;
+        }
+
+        .attribute-colon {
+            margin-right: 30px;
+        }
+
+    .attribute-value {
+        font-weight: 200;
+        padding-left: 10px;
+        margin-top: 2px;
+    }
+    
+    .alert-expiry {
+        color: red;
+    }
+
+    .description {
+        padding-top: 0;
+        margin: 0;
+        word-break: break-word;
+        width: 80%;
+    }
+}
+  
+img {
+    margin-top: 15px;
+    height: 180px !important;
+    width: 170px !important;
+}
+
+.description {
+    padding-top: 15px;
+    margin: 15px;
+ }
+}
+  
+.detail-overview, .drug-item-detail-overview {
+    border-left: 1px solid gray;
+    // height: 100vh;
+}
+
+.drug-item-list-container{
+    margin-top: 30px;
+
+    h4 {
+        text-align: center;
+    }
+}
+
+.drug-detail-table-inner-actions {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    // margin-left: 10%;
+    padding: 0 !important;
+
+    div {
+        margin-right: 12px;
+    }
+
+    .Dropdown-root{
+        margin-right: 0px !important;
+        .Dropdown-control {
+            padding-top: 4px;
+        }
+    }
+
+    .sync{ 
+        margin-top: 8px;
+    }
+
+    select {
+        max-width: 110px;
+        height: 40px
+    }
+}
+
+.drug-detail-table-actions { 
+    // padding-left: 15px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.fa-sync {
+    color: black !important;
+}   
+
+#drug-detail-tabs-tab-movement, #drug-detail-tabs-tab-overview, #drug-detail-tabs-tab-drug-list {
+    color: black !important;
+}
+
+.nav-tabs {
+    .active {
+        color: #007bff !important;
+        border-bottom: 2px solid #007bff !important;
+    }
+}
+
+
+.drug-item-table-action {
+    a {
+        margin-left: 20px;
+    }
+}
+
+.drug-detail-action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drug-detail-tag-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    h4 {
+        padding-left: 15px;
+    }
+    button {
+        margin-right: 15px;
+    }
+}
+
+.addItemBtn{
+    margin-left: auto;
+}
+
+.date {
+    margin-left: 14px;
+}
+
+.react-datetime-picker__wrapper {
+    margin-left: 74px;
+ }
+
+ .cross{
+    margin-right: 30px;
+    font-size: 30px;
+ }
+
+

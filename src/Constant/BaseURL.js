@@ -1,0 +1,1 @@
+export const BaseURL = 'http://localhost:9000' //'http://crx-dev.componentsoft.com:9000'; //'http://localhost:9000'

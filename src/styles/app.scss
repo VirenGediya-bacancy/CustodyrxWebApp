@@ -1,0 +1,134 @@
+// .collapsed {
+//   .navbar-collapse-logout {
+//     position: absolute !important;
+//     right: 0px !important;
+//     top: -7px !important;
+//   }
+// }
+
+.sidebar-wrapper{
+    a.active {
+        padding-top: 10px;
+    }
+}
+
+#root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    padding: 0px !important;
+}
+
+// main search box
+.fa-search {
+    margin: 12px;
+}
+
+
+// all Form
+.form-group {
+    display: flex;
+}
+
+// multi-select drop-down
+.fa-exclamation-circle {
+    color: #dc3545;
+    margin-top: 10px;
+} 
+
+// btn tag link
+.closeBtn, .btn-primary  {
+    a {
+      color: white !important;
+    }
+}
+
+// form validation
+.danger-action {
+    color: #dc3545;
+}
+
+.img_preview{
+    height: 50px;
+    width: 50px;
+}
+
+.modal-dialog {
+    max-width: 800px !important;
+}
+
+.react-datetime-picker__wrapper {
+    position: relative;
+    right: 62px;
+}
+
+.thumbsContainer{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.thumb{
+    display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.thumbInner{
+    position: relative;
+    display: flex;
+    min-width: 0px;
+    overflow: hidden;
+}
+
+.thumbInner li button{
+    background: transparent;
+    border: 0px;
+    color: red;
+    margin-left: 5px;
+}
+
+.clearFile{
+    margin-left: 20px;
+}
+/* React-Table style */
+
+    .ReactTable .rt-th, .ReactTable .rt-td {
+        font-size: 14px;
+        // text-align: center;
+    }
+
+    .ReactTable .rt-thead {
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase;
+        height: 40px;
+    }  
+    .ReactTable {
+        border: none !important;
+    } 
+
+    .ReactTable .table-row .rt-tr:hover {
+        background-color: #EBECF0;
+    }
+
+    .ReactTable .rt-tbody .rt-tr-group {
+        border-bottom: none !important;
+    }
+
+    .drop-down-btn {
+        .btn:not(:disabled):not(.disabled){
+            font-size: 20px;
+        }
+    }
+
+    .drop-down .btn-secondary {
+        font-size: 20px;
+    }
+    

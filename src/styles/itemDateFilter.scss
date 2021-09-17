@@ -1,0 +1,19 @@
+.drop-down {
+    // margin-left: 15px;
+
+    .btn-secondary {
+    color: #6c757d !important; 
+    background-color: #fff !important; 
+    box-shadow: none !important;
+    border: none !important;
+}
+}
+.dropdown-item.active, .dropdown-item:active {
+    font-weight: bold !important;
+    background-color: #e6f7ff !important;
+    color: #2e2e2e !important;
+}
+
+.hideField{
+    display: none;
+}
